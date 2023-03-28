@@ -1,0 +1,573 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inconsolata', monospace;
+}
+
+body {
+    background-color: #ffffff5e;
+    display: grid;
+    margin-top: 155px;
+    background-image: url("../Imags/wallpaperflare.com_wallpaper (2).jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.description {
+    font-size: 35px;
+}
+
+.description:hover{
+    color: #0099ff;
+    cursor:context-menu;
+}
+
+/*******************************************************/
+/* Start of  header section*/
+.header {
+
+    width: 100%;
+    margin: 0px;
+    position: fixed;
+    top: 0px;
+}
+
+.first-sec-header {
+    background-color: #131a35;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.second-sec-nav {
+    background-color: #b6c1ff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-sec-nav a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.second-sec-nav a:hover {
+    background-color: #131a35;
+    color: #70b5e4;
+    border-radius: 15px;
+}
+
+/* End of  header section*/
+/*******************************************************/
+
+/*******************************************************/
+
+/* Start of  about section*/
+
+.about {
+    background-color: #ffffff5e;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    row-gap: 30px;
+
+}
+
+.about .content {
+    padding: 20px;
+}
+
+
+.my-info {
+    background-color: #456cdb7a;
+    border-radius: 24px;
+    width: 900px;
+    padding: 0px 0px;
+    display: grid;
+    grid-template-columns: 300px auto;
+    gap: 0px 60px;
+
+
+}
+
+
+.my-info:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.my-card {
+    background-color: rgba(255, 255, 255, 0.863);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin-top: 0px;
+    text-align: center;
+    font-family: arial;
+    border-radius: 18px;
+}
+
+.my-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+
+.my-title {
+    color: rgb(48, 45, 45);
+    font-size: 18px;
+}
+
+.my-img {
+    border-radius: 18px 18px 0px 0px;
+}
+
+.imgs a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+}
+
+.imgs img {
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+.card-btn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #0b1022;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 0px 0px 18px 18px;
+}
+
+.card-btn:hover,
+a:hover {
+    opacity: 0.7;
+}
+
+.bio {
+    width: 400px;
+    height: 451px;
+
+
+}
+
+.bio p {
+    margin-top: 66px;
+    font-size: 20px;
+
+    line-height: 1.5;
+}
+
+/* End of  about section*/
+/*******************************************************/
+
+/*******************************************************/
+/* Start of  my-experience section*/
+.my-experience {
+    background-color: #ffffff5e;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    row-gap: 37px;
+}
+
+.my-experience .content {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    gap: 6px 180px;
+    padding: 48px;
+    justify-items: end;
+}
+
+.the-field {
+    margin: 24px 23px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 27px;
+    gap: 0px 21px;
+}
+
+progress {
+    display: inline-block;
+    width: 265px;
+    height: 49px;
+}
+
+progress:after {
+    margin: -26px 0 0 -7px;
+    padding: 0;
+    float: left;
+    content: attr(value) "%";
+}
+
+/* End of  my-experience section*/
+/*******************************************************/
+
+/*******************************************************/
+/* Start of  work section*/
+.work {
+    background-color: #ffffff5e;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    row-gap: 20px;
+
+}
+
+.work .content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 45px 190px;
+    padding: 20px;
+
+}
+
+.work-card {
+    background-color: #eee;
+    width: 275px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.work-card:hover {
+    background-color: #eee;
+    box-shadow: 1px 3px 10px 10px #0a0a0aa8;
+    width: 275px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.work-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.work-card-content {
+    padding: 10px;
+}
+
+.work-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.work-card-description {
+    font-size: 16px;
+    color: #666666;
+}
+
+.work-card button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0099ff;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+.work-card button:hover {
+    background-color: #7f99b1;
+}
+
+/* End of  work section*/
+/*******************************************************/
+/*******************************************************/
+/* Start of  rate section*/
+.work-rate {
+    background-color: #ffffff5e;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    justify-items: center;
+    justify-content: space-evenly;
+    row-gap: 45px;
+
+}
+
+.work-rate .content {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 195px;
+    padding: 20px;
+
+}
+
+.rate-card {
+    background-color: #eee;
+    width: 275px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.rate-card:hover {
+    background-color: #eee;
+    box-shadow: 1px 3px 10px 10px #0a0a0aa8;
+    width: 275px;
+    height: auto;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.rate-card-image {
+    width: 70%;
+}
+
+.rate-card-content {
+    padding: 10px;
+    text-align: center;
+}
+
+.rate-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.rate-card-description {
+    font-size: 16px;
+    color: #666666;
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+.rate1 {
+    transition: --num 0.7s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+}
+
+.rate1::after {
+    content: counter(num);
+}
+
+.rate1:hover {
+    --num: 287;
+}
+
+.rate2 {
+    transition: --num 0.7s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+}
+
+.rate2::after {
+    content: counter(num);
+}
+
+.rate2:hover {
+    --num: 400;
+}
+
+.rate3 {
+    transition: --num 1s;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+}
+
+.rate3::after {
+    content: counter(num);
+}
+
+.rate3:hover {
+    --num: 3;
+}
+
+/* End of  rate section*/
+/*******************************************************/
+
+/*******************************************************/
+/* Start of  contact section*/
+.contact {
+    background-color: #ffffff5e;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 45px;
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    row-gap: 47px;
+}
+
+.contact .content {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 40%;
+}
+
+.info p {
+    font-size: 25px;
+    color: #000000;
+    font-weight: 900;
+}
+
+.info {
+    padding: 10px;
+    box-shadow: 1px 3px 10px 10px #ff0000;
+    background-color: #ffffff99;
+    border-radius: 10px;
+}
+
+.info:hover {
+    box-shadow: 1px 3px 10px 10px #0099ff;
+    background-color: #eee;
+    border-radius: 10px;
+
+}
+
+.form1 {
+    background-color: #ffffff99;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #125785;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 1px 3px 10px 10px #ff0000;
+    width: 352px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.form1:hover {
+    background-color: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #125785;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 3px 5px 15px 15px #0099ff;
+    width: 352px;
+    height: 500px;
+    border-radius: 15px;
+}
+
+.form1 label,
+input {
+    display: block;
+}
+
+.form1 input {
+    display: block;
+    width: 282px;
+    height: 46px;
+    padding: 10px;
+    margin: 8px;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.form1 input:focus {
+    width: 282px;
+    height: 46px;
+    font-size: 22px;
+    color: #0099ff;
+    border-radius: 15px;
+}
+
+.form1 textarea {
+    display: block;
+    width: 285px;
+    height: 170px;
+    margin: 8px;
+    font-size: 17px;
+    border-radius: 15px;
+}
+
+.form1 textarea:focus {
+    width: 285px;
+    height: 170px;
+    font-size: 22px;
+    color: #0099ff;
+    border-radius: 15px;
+}
+
+.form1 .btn {
+    background-color: white;
+    border: 2px solid black;
+    padding: 2px 20px;
+    margin: 30px 0px;
+    width: 100px;
+    height: 30px;
+}
+
+.form1 .btn:hover {
+    background-color: #0099ff;
+    color: white;
+}
+
+.form1 .input-text,
+.input-area,
+.input-btn {
+    display: grid;
+    justify-content: space-evenly;
+    justify-items: start;
+}
+
+/* End of  contact section*/
+/*******************************************************/
+/*******************************************************/
+/* Start of  Footer section*/
+.footer {
+    background-color: #131a35;
+    color: white;
+    height: 50px;
+    margin: 0px;
+    display: grid;
+    grid-template-columns: auto;
+    align-content: space-around;
+    justify-items: center;
+}
+
+.footer-ellement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.copyright:hover{
+    color: #0099ff;
+    text-decoration: underline;
+}
+
+/* End of  Footer section*/
+/*******************************************************/
