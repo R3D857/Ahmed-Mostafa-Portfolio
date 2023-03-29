@@ -377,6 +377,8 @@ progress:after {
 
 .rate1:hover {
     --num: 287;
+    color: #0099ff;
+
 }
 
 .rate2 {
@@ -391,6 +393,7 @@ progress:after {
 
 .rate2:hover {
     --num: 400;
+    color: #0099ff;
 }
 
 .rate3 {
@@ -405,6 +408,7 @@ progress:after {
 
 .rate3:hover {
     --num: 3;
+    color: #0099ff;
 }
 
 /* End of  rate section*/
